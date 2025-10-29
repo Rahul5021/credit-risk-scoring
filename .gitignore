@@ -1,12 +1,10 @@
 # Ignore data files
-data/
-*.csv
-*.xlsx
+data/*
+!data/.gitkeep
 
 # Ignore model files
-models/
-*.pkl
-*.sav
+models/*
+!models/.gitkeep
 
 # Ignore notebook checkpoints
 .ipynb_checkpoints/
